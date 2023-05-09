@@ -43,7 +43,7 @@ function App() {
   
 useEffect(() => {
   document.title = `You clicked ${count} times`;
-  console.log({count})
+  console.log({count});
   return () => {
     document.title = "vite + React";
   };
