@@ -1,7 +1,4 @@
 
-
-
-
 .whole { 
   position: relative;
   display: flex;
@@ -79,4 +76,33 @@
   width: 700px;
   height: 950px;
   z-index: 990;
+}
+
+.statistics {
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+  color: white;
+}
+
+.statistics .titles {
+  font-size: 20px;
+  font-weight: bold;
+  width: 20%;
+}
+
+.statistics .data {
+  width: 80%;
+  color: gray;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.champion {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
 }
